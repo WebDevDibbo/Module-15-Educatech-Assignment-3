@@ -2,10 +2,64 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 body{
     font-family: 'Poppins', sans-serif;
-
+}
+.mg-top-btm{
+    margin: 100px 0;
+}
+h3{
+    font-size: 20px;
+    font-weight: 600;
+    color: #4A4A4A;
 }
 /* navbar section */
 .navbar-nav li a{
     font-weight: 600;
     font-size: 17px;
+}
+/* banner slider */
+/* img{
+    max-width: 100%;
+} */
+.carousel-item img{
+    width: 1320px;
+    height: 580px;
+    filter:brightness(50%);
+    object-fit: cover;
+    min-height: 60vh;
+}
+.carousel-caption h1{
+    font-size: 65px;
+    font-weight: 600;
+}
+/* course section starts */
+.font-style{
+    font-size: 45px;
+    font-weight: 600;
+}
+.course-title p{
+    color: #777777;
+    font-size: 16px;
+    font-weight: 400;
+}
+/* media queries for mobile */
+@media screen and (min-width:576px) and (max-width:768px) {
+    .carousel-caption h1{
+        font-size: 20px;
+    }
+    .font-style{
+        font-size: 20px;
+    }
+}
+@media screen and (min-width:769px) and (max-width:992px) {
+    
+    .carousel-caption{
+        width: 500px;
+        height: 450px;
+    }
+    .carousel-caption h1{
+        font-size: 40px;
+    }
+    .font-style{
+        font-size: 30px;
+    }
 }
