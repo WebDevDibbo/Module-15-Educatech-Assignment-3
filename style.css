@@ -1,5 +1,11 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+
+}
 /* navbar section */
 .navbar-nav li a{
-    font-weight: 700;
+    font-weight: 600;
     font-size: 17px;
 }
