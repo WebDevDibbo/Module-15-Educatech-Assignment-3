@@ -39,6 +39,9 @@ h3{
 .explore-learning .text-overflow{
     height:120px ;
 }
+.frequently{
+    width: 75%;
+}
 /* media queries for mobile */
 @media screen and (min-width:576px) and (max-width:768px) {
     .carousel-caption h1{
@@ -46,6 +49,9 @@ h3{
     }
     .font-style{
         font-size: 20px;
+    }
+    .frequently{
+        width: 100%;
     }
 }
 @media screen and (min-width:769px) and (max-width:992px) {
@@ -59,5 +65,8 @@ h3{
     }
     .font-style{
         font-size: 30px;
+    }
+    .frequently{
+        width: 100%;
     }
 }
