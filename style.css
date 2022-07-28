@@ -52,10 +52,10 @@ h3{
 }
 @media screen and (min-width:769px) and (max-width:992px) {
     
-    .carousel-caption{
+    /* .carousel-caption{
         width: 500px;
         height: 450px;
-    }
+    } */
     .carousel-caption h1{
         font-size: 40px;
     }
