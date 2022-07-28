@@ -36,9 +36,6 @@ h3{
     font-weight: 600;
 }
 /* explore learning section */
-.explore-learning .text-overflow{
-    height:120px ;
-}
 .frequently{
     width: 75%;
 }
@@ -55,11 +52,7 @@ h3{
     }
 }
 @media screen and (min-width:769px) and (max-width:992px) {
-    .explore-learning .text-overflow{
-        height:100px ;
-        text-overflow:ellipsis;
-        overflow: hidden;
-    }
+
     .carousel-caption h1{
         font-size: 40px;
     }
