@@ -16,6 +16,7 @@ h3{
     font-weight: 600;
     font-size: 17px;
 }
+/* slider section */
 .carousel-item img{
     width: 1320px;
     height: 580px;
@@ -41,9 +42,6 @@ h3{
 .explore-learning .text-overflow{
     height:120px ;
 }
-
-
-
 /* media queries for mobile */
 @media screen and (min-width:576px) and (max-width:768px) {
     .carousel-caption h1{
@@ -54,7 +52,6 @@ h3{
     }
 }
 @media screen and (min-width:769px) and (max-width:992px) {
-    
     .explore-learning .text-overflow{
         height:100px ;
         text-overflow:ellipsis;
@@ -67,8 +64,3 @@ h3{
         font-size: 30px;
     }
 }
-/* <button type="button" class="border-0
-                    rounded btn-light fw-semibold text-info px-3 py-2" data-toggle="modal"
-                        data-target="#exampleModalCenter">
-                        Register Now
-                    </button> */
