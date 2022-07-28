@@ -16,10 +16,6 @@ h3{
     font-weight: 600;
     font-size: 17px;
 }
-/* banner slider */
-/* img{
-    max-width: 100%;
-} */
 .carousel-item img{
     width: 1320px;
     height: 580px;
@@ -36,11 +32,18 @@ h3{
     font-size: 45px;
     font-weight: 600;
 }
-.course-title p{
+.para-style{
     color: #777777;
     font-size: 16px;
     font-weight: 400;
 }
+/* explore learning section */
+.explore-learning .text-overflow{
+    height:120px ;
+}
+
+
+
 /* media queries for mobile */
 @media screen and (min-width:576px) and (max-width:768px) {
     .carousel-caption h1{
@@ -52,10 +55,11 @@ h3{
 }
 @media screen and (min-width:769px) and (max-width:992px) {
     
-    /* .carousel-caption{
-        width: 500px;
-        height: 450px;
-    } */
+    .explore-learning .text-overflow{
+        height:100px ;
+        text-overflow:ellipsis;
+        overflow: hidden;
+    }
     .carousel-caption h1{
         font-size: 40px;
     }
